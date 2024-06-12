@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .mailing-list input[type="EMAIL"] {
-    width: 200px;
+    width: 167px; // just enough for the first part of the sentence to show :D
 }
 
 .mailing-list input[type="EMAIL"]:focus {
