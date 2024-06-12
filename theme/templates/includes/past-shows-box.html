@@ -16,11 +16,11 @@
     </table>
 
     <div class="past_events_wrapper">
-        <h2 class="past_events_toggler" style="cursor: pointer;">Past events 2014-{{ CURRENT_DATE | strftime('%Y') }} &#9660;</h2>
+        <h2 class="past_events_toggler" style="cursor: pointer;">Past events {{ CURRENT_DATE | strftime('%Y') }}-2014 &#9660;</h2>
 
         <table class="past_events" style="display: none;">
 
-            {% for article in articles_page.object_list | reverse %}
+            {% for article in articles_page.object_list %}
                 {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
                 {% if post_start_date < current_date %}
                 <tr>
