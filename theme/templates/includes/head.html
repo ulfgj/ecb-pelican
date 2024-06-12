@@ -1,0 +1,40 @@
+    <meta charset="UTF-8">
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=.5"> -->
+    <!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1"> -->
+    <!-- <meta name="viewport" content="width=device-height" /> -->
+    <meta name="description" content="Since 2012 English Comedy Brussels is the town’s #1 for English speaking stand-up comedy as well as being one of the best clubs in Europe." />
+    <title>{{ SITENAME }}</title>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
+    <!-- past events accordeon -->
+    <script>
+    $(document).ready(function() {
+      $('h2.past_events_toggler').click(function() {
+        $('table.past_events').slideToggle("easein");
+      });
+    });
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '293631811229723');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+     <img height="1" width="1"
+    src="https://www.facebook.com/tr?id=293631811229723&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->

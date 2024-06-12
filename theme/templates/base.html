@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include 'includes/head.html' %}
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav-top">
+                {% include 'includes/nav-social.html' %}
+                {% include 'includes/mailchimp-mailinglist.html' %}
+            </nav><!-- .nav-top END -->
+            {% include 'includes/nav-main.html' %}
+            <img class="logo" src="{{ SITEURL }}/theme/images/logo.png" alt="english comedy brussels" />
+        </header>
+        {% if page_name == "index" %}
+            <div class="about" style="padding: 10px; margin: 0 auto; width: 80%;">
+                {% include 'includes/about.html' %}
+            </div>
+        {% endif %}
+
+          {% block content %}
+          {% endblock %}
+
+    </div><!-- .wrapper END -->
+    <footer style="width: 100%;">
+        {% include 'includes/footer.html' %}
+    </footer>
+  </body>
+</html>

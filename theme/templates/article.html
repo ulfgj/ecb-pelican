@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="post-wrapper">
+    <div class="flyer">
+        <a href="{{ article.fb_url }}" target="_blank">
+            <img src="{{ article.image_url }}" />
+        </a>
+    </div>
+
+    <div class="quotebox">
+        <div class="event-desc half">
+        {% if article.availability == "soldout" %}
+            <span class="availability">Sold out</span>
+        {%endif%}
+        {% if article.availability == "cancelled" %}
+            <span class="availability">Cancelled</span>
+        {%endif%}
+        {% if article.availability == "extra" %}
+            <span class="availability">EXTRA SHOW!</span>
+        {%endif%}
+
+        <h2 style="border-bottom: 1px solid black;">{{ article.date | strftime("%-d %B %Y") }}</h2>
+
+        <h2 style="margin-top: -5px;">{{ article.event_title }}</h2>
+
+            {{ article.content }}
+
+            {% if article.youtube_video %}
+            <iframe width="560" height="315" src="{{ article.youtube_video }}" frameborder="0" allowfullscreen> </iframe>
+            {% endif %}
+        <hr style="width:100%;">
+        <h4 style="color: #888;font-size:85%;text-align:right;">{{ article.date | strftime("%-d %B %Y") }} - {{ article.event_title }}<br />{{ article.location }}</h4>
+        </div>
+        <div class="btn-buy-ticket"><a href="{{ article.ticket_url }}" target="_blank">Order tickets here!</a></div>
+    </div><!-- .quotebox END -->
+
+{% include 'includes/share-block.html' %}
+
+{% endblock %}

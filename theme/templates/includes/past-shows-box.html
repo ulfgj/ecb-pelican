@@ -1,0 +1,120 @@
+<div class="past-shows-box" style="text-align: left;">
+    <h2>Upcoming events:</h2>
+    <table>
+        {% set current_date = CURRENT_DATE | strftime('%Y%m%d') | int %}
+        {% for article in articles_page.object_list | reverse %}
+            {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
+            {% if post_start_date >= current_date %}
+                <tr>
+                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                    <td>&nbsp;/&nbsp;</td>
+                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                </tr>
+
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    <div class="past_events_wrapper">
+        <h2 class="past_events_toggler" style="cursor: pointer;">Past events 2014-{{ CURRENT_DATE | strftime('%Y') }} &#9660;</h2>
+
+        <table class="past_events" style="display: none;">
+
+            {% for article in articles_page.object_list | reverse %}
+                {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
+                {% if post_start_date < current_date %}
+                <tr>
+                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                    <td>&nbsp;/&nbsp;</td>
+                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                </tr>
+                {% endif %}
+            {% endfor %}
+            <!-- hard coded past shows pre 2015
+            <tr>
+                <td><a href="https://www.facebook.com/events/733855980036534/">2014-02-12</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/733855980036534/">English Comedy Night / Christian Shulte-Loh + Damian Clark</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/762144370489940/">2014-22-11</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/762144370489940/">Mon Incroyable Fiancé, Patrick en one man show</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/646980808756604/">2014-18-11</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/646980808756604/">English Comedy Night, November 2014</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/754260287973655/">2014-21-10</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/754260287973655/">English Comedy Night - Phil Nichol</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/812617945417525/">2014-25-09</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/812617945417525/">Reginald D Hunter in Brussels</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/317933675033656/">2014-16-09</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/317933675033656/">English Comedy Night (Benny Boot headlining)</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/251252491726310/">2014-17-07</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/251252491726310/">English Comedy Night June 17th - Daliso Chaponda &amp; Chris Martin</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/604960129583546/">2014-03-07</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/604960129583546/">Event Postponed !!</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/1412595002335501/">2014-20-05</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/1412595002335501/">English Comedy Night, May 20th - Tony Law headlining</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/1418215598433738/">2014-02-05</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/1418215598433738/">Just For Laughs International Comedy Night</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/529411187174366/">2014-30-04</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/529411187174366/">Just For Laughs International Comedy Week Day 3</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/368566046619235/">2014-29-04</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/368566046619235/">Just For Laughs International Comedy Week Day 2</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/261238920723889/">2014-28-04</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/261238920723889/">Just For Laughs International Comedy Week Day 1</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/650028831736281/">2014-15-04</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/650028831736281/">English Comedy Night : Tuesday april 15th - Isak Jansson is back !</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/1398645247064743/">2014-18-03</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/1398645247064743/">English Comedy Night : tuesday March the 18th</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/1530739533817017/">2014-23-02</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/1530739533817017/">Sunday Comedy Club (in the NY/London style)</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/697162533639794/">2014-18-02</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/697162533639794/">English Comedy Night : tuesday Feb the 18th</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/562387450496977/">2014-28-01</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/562387450496977/">Brussels English Comedy Night : US-UK special, with Andy Valvur and Tony Dunham</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/130465687123696/">2014-21-01</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/130465687123696/">Gili, the Mentalist &amp; Nigel Williams</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/765013580180517/">2013-03-12</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/765013580180517/">Brussels English Comedy Night (X-Mas Special) : Tuesday december 3rd</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/180159112173868/">2013-19-11</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/180159112173868/">Brussels English Comedy Night: Tuesday November 19th</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/406873829414834/">2013-22-10</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/406873829414834/">Brussels English Comedy Night - Tues, Oct 22nd</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/568912206498515/">2013-24-09</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/568912206498515/">Brussels English Comedy Night - Tues, Sept 24th</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/624944577535506/">2013-25-07</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/624944577535506/">Brussels English Comedy Night - Tues, june 25th</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/181079072045265/">2013-21-05</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/181079072045265/">Brussels English Comedy Night</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/624513490908716/">2013-16-04</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/624513490908716/">Brussels English Comedy Night - Tues, Apr 16</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.facebook.com/events/453641654709455/">2013-18-03</a></td><td>&nbsp;/&nbsp;</td><td><a href="https://www.facebook.com/events/453641654709455/">English Comedy Night</a></td>
+            </tr>
+         -->
+        </table>
+    </div>
+
+</div>
+    

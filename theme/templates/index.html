@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="latest">
+    <div class="grid">
+
+        {# Assign current date #}
+        {% set current_date = CURRENT_DATE | strftime('%Y%m%d') | int %}
+        {% set prev_month = [0] %}
+
+            {# Loop through posts #}
+            {% for article in articles_page.object_list | reverse %}
+
+                {# Assign post_start_date #}
+                {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
+
+                {% set article_month = article.date | strftime('%m') | int %}
+
+                {# Only show future events #}
+                {% if post_start_date >= current_date %}
+
+                    {# Only display month header before the first article of the month #}
+                    {# by checking if current post's month == last article's month #}
+                    {% if article_month != prev_month[0] %}
+
+                        <div style="clear:both;"></div>
+                        <h2 class="event-month-header">{{ article.date | strftime('%B %Y') }}</h2>
+                        {% set __ = prev_month.pop(0) %}
+                        {% set __ = prev_month.append(article_month) %}
+
+                    {% endif %}
+
+                <div class="col-1-2">
+                    <div class="event-box module month_{{ article_month }}">
+                        <a href="{{ SITEURL }}/{{ article.url }}">
+
+                            {% if article.availability == "soldout" %}
+                                <span class="availability front-page">Sold out</span>
+                            {%endif%}
+                            {% if article.availability == "cancelled" %}
+                                <span class="availability front-page">Cancelled</span>
+                            {%endif%}
+                            {% if article.availability == "extra" %}
+                                <span class="availability front-page">EXTRA SHOW!</span>
+                            {%endif%}
+
+                            <img src="{{ article.image_url }}" />
+                            <p>{{ article.date | strftime('%d %B %Y') }}</p>
+                            <p>{{ article.event_title }}</p>
+                        </a>
+                    </div>
+                </div>
+
+                {% endif %}
+            {% endfor %}
+    </div>
+    {% include 'includes/past-shows-box.html' %}
+</section>
+{% endblock content %}

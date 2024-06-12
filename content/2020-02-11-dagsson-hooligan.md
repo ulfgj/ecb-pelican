@@ -1,0 +1,9 @@
+---
+title: 2020-02-11-dagsson-hooligan
+event_title: DAGSSON - HOOLIGAN
+layout: post
+ticket_url: https://www.weezevent.com/dagsson2020
+fb_url: https://www.facebook.com/events/2547820192002263/
+image_url: https://wzeweb-p-visuelorga-evn-affiche-thumb.s3.eu-west-1.amazonaws.com/affiche_573478.thumb53700.1575030086.jpg
+---
+<p>One of our best shows in 2019, <strong>Dagsson</strong> is back in Brussels with his new show, <strong>Hooligan</strong>!</p><p>&nbsp;</p><p>Hugleikur Dagsson was born in the winter of 1977 in the northern part of Iceland. Since then he has been breathing oxygen and eating sharks to fuel his artistic tendencies. He graduated from the Iceland Academy of the Arts in 2002 and is now an established comedian, cartoonist.</p><p>&nbsp;</p><p>screenwriter and director. He has published around 30 books, mostly comics or cartoon collections with focus on dark humour. He has written</p><p>3 plays, directed his own animated TV series and is also in a boyband.</p><p>&nbsp;</p><p>He has been doing stand up comedy in Iceland for a decade and taped three stand up specials. His style has been described as "filthy but friendly". His material includes the benefits of drug abuse, the laughter of cats and the depression of beauty queens. Be prepared for a crazy night.</p><p>&nbsp;</p><p><span>Doors open at 7 pm<br>Online tickets : 20€<br>On the door : 25€</span></p><p>&nbsp;</p><p><span>For catering we team up with restaurant/tapas bar <strong>Les Pénates</strong>, just across the street from Marni Theatre.&nbsp; You can book your table here info@lespenates.be / 02 850 82 77 and mention you go to the comedy show at Marni, so that the waiters will know you have to be served before a certain time. Book early as this place is very popular and in high demand.</span></p>
