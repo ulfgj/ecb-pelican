@@ -19,6 +19,7 @@ AUTHOR_FEED_RSS = None
 THEME = "theme"
 STYLESHEET_URL = True
 
+DISPLAY_PAGES_ON_MENU = True
 # TWITTER_USERNAME =
 
 # Blogroll
