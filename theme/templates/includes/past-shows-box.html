@@ -37,10 +37,16 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><a href="{{ SITEURL }}{{ article.url }}" style="">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
-                        <td>&nbsp;/&nbsp;</td>
-                        <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
-                    </tr>
+                        {% if article.legacy_event == "True" %}
+                            <td><a href="{{ SITEURL }}{{ article.fb_url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                            <td>&nbsp;/&nbsp;</td>
+                            <td><a href="{{ SITEURL }}{{ article.fb_url }}">{{ article.event_title }}</a></td>
+                        {% else %}
+                            <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                            <td>&nbsp;/&nbsp;</td>
+                            <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                        {% endif %}
+                     </tr>
                     {% endif %}
             {% endfor %}
             </table>
