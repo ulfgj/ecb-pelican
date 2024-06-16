@@ -1,3 +1,4 @@
+{% set years = [0] %}
 <div class="past-shows-box" style="text-align: left;">
     <h2>Upcoming events:</h2>
     <table>
@@ -22,13 +23,26 @@
 
             {% for article in articles_page.object_list %}
                 {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
+                {% set event_year = article.date | strftime('%Y') | int %}
                 {% if post_start_date < current_date %}
-                <tr>
-                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
-                    <td>&nbsp;/&nbsp;</td>
-                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
-                </tr>
-                {% endif %}
+                    {% set __ = years.append(event_year) %}
+                    <tr>
+                        {% if years[0] != years[1] %}
+                            <td colspan="6">
+                                <h2>{{ event_year }}</h2>
+                            </td>
+                            {% set __ = years.pop(0) %}
+                        {% else %}
+                            {% set __ = years.pop(0) %}
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="{{ SITEURL }}{{ article.url }}" style="">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                        <td>&nbsp;/&nbsp;</td>
+                        <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                    </tr>
+                    {% endif %}
             {% endfor %}
             <!-- hard coded past shows pre 2015
             <tr>
