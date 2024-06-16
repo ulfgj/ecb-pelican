@@ -70,27 +70,26 @@ nav a:hover {
     padding: 20px 0;
 }
 
-.nav-top a {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-}
-
 .nav-main {
     border-top: 1px dotted black;
     border-bottom: 1px dotted black;
 }
 
-.mailing-list {
+#mailing-list {
     font-size: 18px;
     color: white;
     float: right;
-    padding: 9px 20px;
+    padding: 15px 30px;
+    margin-right: 0px;
     border-radius: 40px;
     background-color: #00ACFF;
 }
+#mailing-list:hover {
+    color: black;
+    transition: color 350ms ease-in-out 0s;
+}
 
-.mailing-list input[type="submit"],
+/*.mailing-list input[type="submit"],
 .mailing-list input[type="EMAIL"] {
     font-size: 18px;
     height: 2rem;
@@ -104,7 +103,7 @@ nav a:hover {
 }
 
 .mailing-list input[type="EMAIL"] {
-    width: 200px;
+    width: 167px; // just enough for the first part of the sentence to show :D
 }
 
 .mailing-list input[type="EMAIL"]:focus {
@@ -113,8 +112,13 @@ nav a:hover {
 
 .mailing-list .clear {
     display: inline;
-}
+}*/
 
+.social {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+}
 .ig {
     background: url("../images/social-ig.jpg") no-repeat;
 }
