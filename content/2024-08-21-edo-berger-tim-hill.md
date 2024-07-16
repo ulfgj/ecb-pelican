@@ -14,7 +14,7 @@ Edo hails from Amsterdam. Edo eats everything and loves children. His favourite 
 <h2>Tim Hill</h2>
 Tim Hill is a recovering cynic. A backpacker who settled down to become a dad. A sweet guy with a sting in his tail. But above all, a smartass who loves referring to himself in the third person (he really does). Tim does not approve of people calling him a hipster – meaning he probably is one – and sees the world as a meaningless yet endlessly fascinating place. Tim is cheap, clean and sustainable and is therefore considered by many to be a viable alternative to fossil fuels.
 <hr />
-<strong>CASH ONLY @ the venue</strong></br>
+<strong>CASH ONLY @ the venue</strong><br />
 Doors open at 6:30 pm<br />
 Show starts at 8pm<br />
 Table bookings : theblacksheep.brussels@gmail.com
