@@ -1,5 +1,5 @@
 ---
-title: 2024-06-11-ric-diez---friends
+title: 2024-06-11-ric-diez-friends
 event_title: Ric Diez & Friends
 layout: post
 ticket_url: https://my.weezevent.com/diez2024
