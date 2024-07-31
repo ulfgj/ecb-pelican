@@ -1,10 +1,10 @@
 ---
 title: 2024-08-04-ric-diez-friends
-event-title: Ric Diez & Friends
+event_title: Ric Diez & Friends
 layout: post
-ticket-url: https://my.weezevent.com/diez2
-fb-url: https://www.facebook.com/events/1001922637769374/
-image-url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1167560.jpeg
+ticket_url: https://my.weezevent.com/diez2
+fb_url: https://www.facebook.com/events/1001922637769374/
+image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1167560.jpeg
 location: The Black Sheep, Chaussée de Boondael 8, 1050, Brussels Belgium
 ---
 Kill Tony podcast sensation <strong>Ric Diez</strong> (@sadmanric) is back at The Black Sheep for another evening of one liners, dark humour, and self deprecation. A few friends will tag along to make it another comedy evening to remember.
