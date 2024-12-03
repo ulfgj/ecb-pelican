@@ -1,13 +1,14 @@
 ---
-title: 2024-12-14-shane-todd-full-house
-event_title: Shane Todd - Full House
+title: 2024-12-14-shane-todd-full-house-additional-show
+event_title: Shane Todd - Full House (additional show)
 layout: post
-ticket_url: https://my.weezevent.com/shane2024
-fb_url: https://www.facebook.com/events/1255137815536032/
+ticket_url: https://my.weezevent.com/shane2
+fb_url: https://www.facebook.com/events/834764968644430/
 image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1218845.png
 location: The Black Sheep, Chaussée de Boondael 8, 1050, Brussels Belgium
-availability: soldout
 ---
+
+ADDITIONAL SHOW, the 7pm event is Sold out. This one will start at 4pm
 
 Shane Todd is hitting the road with his biggest ever tour, and will stop by Brussels on Saturday 14th of december.
 
@@ -30,8 +31,3 @@ NB : The venue has a CASH ONLY policy
 Doors open at 6 pm<br />
 Show starts at 7 pm 
 
- 
-
-
-
-	 
