@@ -22,7 +22,7 @@ very special guest : Edo Berger
 
 Edo hails from Amsterdam and won several Dutch comedy festivals before expanding to performing in English. Since then he's become one of our crowd's favorite acts and we're delighted to have him back at The Black Sheep.
 
-<hr />
+<hr style="width:100%;" />
 
 NB : the venue has a CASH ONLY policy
 

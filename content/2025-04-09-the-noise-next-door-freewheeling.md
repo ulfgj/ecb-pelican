@@ -22,7 +22,7 @@ The Noise Next Door are twelve-time sell-out veterans of The Edinburgh Fringe an
 
 “Phenomenal” Daily Mirror
 
-<hr />
+<hr style="width:100%;" />
 
 Doors open at 7pm<br />
 Show starts at 8pm

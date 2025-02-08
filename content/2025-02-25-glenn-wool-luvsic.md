@@ -14,11 +14,9 @@ Almost 50, almost single, almost happy. It's not a "how to" but a "how I" got ov
 
 An hour with Wool is worth about ten hours with many other comics. Why aren't you in a queue somewhere buying a ticket? ***** The Scotsman 
 
-<hr />
-
 Special guests : Ric Diez
 
-<hr />
+<hr style="width:100%;" />
 
 NB : the venue has a CASH ONLY policy
 

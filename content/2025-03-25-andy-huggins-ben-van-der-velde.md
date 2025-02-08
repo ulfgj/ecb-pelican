@@ -20,7 +20,7 @@ Special guests : Ben Van Der Velde
 
 "The perfect comedy club host - he is a master of audience interaction. The audience weren't just warmed up, but pretty histerical even before the first act of the night hit the stage." Huffington Post
 
-<hr />
+<hr style="width:100%;" />
 
 NB : the venue has a CASH ONLY policy
 
