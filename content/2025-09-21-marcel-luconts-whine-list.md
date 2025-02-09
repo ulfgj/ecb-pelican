@@ -3,7 +3,7 @@ title: 2025-09-21-marcel-luconts-whine-list
 event_title: Marcel Lucont's Whine List
 layout: post
 ticket_url: https://my.weezevent.com/marcel2025
-fb_url: https://www.facebook.com/events/1307431327257423/
+fb_url: https://www.facebook.com/events/1077203147428504/
 image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1272051.jpg
 location: Le Bouche-à-Oreille, rue Félix Hap 11, 1040, Brussels Belgium
 ---
@@ -16,7 +16,7 @@ As seen on Live At The Comedy Store (Comedy Central), Set List (Sky Atlantic), T
 
 “Fresh, accessible and hilarious” - The Guardian
 
-“Exceptionally dry… superb”  - The Times
+“Exceptionally dry… superb” - The Times
 
 “His elegant, sardonic turns of phrase are an utter joy… superb stuff” - Time Out
 
@@ -27,4 +27,7 @@ As seen on Live At The Comedy Store (Comedy Central), Set List (Sky Atlantic), T
 “Hilarious… Comedy doesn’t get much better than this” - ★★★★★ AdelaideNow, Adelaide Fringe
 
 “Who can resist Marcel Lucont?… Pulling clever punchlines out of every interaction with his audience… Sometimes arrogance is bliss" - ★★★★ The Scotsman, Edinburgh Fringe
+<hr style="width:100%;" />
+Doors : 6pm
 
+Show : 7pm
