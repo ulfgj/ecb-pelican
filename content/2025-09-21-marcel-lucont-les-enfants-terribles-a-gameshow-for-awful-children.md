@@ -1,6 +1,7 @@
 ---
 title: 2025-09-21-marcel-lucont-les-enfants-terribles-a-gameshow-for-awful-children
 event_title: Marcel Lucont : Les Enfants Terribles - a gameshow for awful children
+event_time: from 4 p.m. to 5:30 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/enfantsterribles
 fb_url: https://www.facebook.com/events/605636575777115/

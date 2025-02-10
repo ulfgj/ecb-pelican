@@ -1,6 +1,7 @@
 ---
 title: 2025-02-25-glenn-wool-luv(sic)
 event_title: Glenn Wool - Luv(Sic)
+event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/wool2025
 fb_url: https://www.facebook.com/events/1129001528602401/

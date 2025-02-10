@@ -1,6 +1,7 @@
 ---
 title: 2025-09-21-marcel-luconts-whine-list
 event_title: Marcel Lucont's Whine List
+event_time: from 7 p.m. to 8:30 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/marcel2025
 fb_url: https://www.facebook.com/events/1077203147428504/
@@ -14,19 +15,29 @@ Winner: Best Comedy Show – Fringe World Awards
 
 As seen on Live At The Comedy Store (Comedy Central), Set List (Sky Atlantic), The John Bishop Show (BBC1) and Live At The Electric (BBC3).
 
-“Fresh, accessible and hilarious” - The Guardian
+<hr style="width:100%;" />
 
-“Exceptionally dry… superb” - The Times
+“Fresh, accessible and hilarious”  
+The Guardian
 
-“His elegant, sardonic turns of phrase are an utter joy… superb stuff” - Time Out
+“Exceptionally dry… superb”  
+The Times
 
-“Witty, intelligent and pitch-perfect” - ★★★★ The List
+“His elegant, sardonic turns of phrase are an utter joy… superb stuff”  
+Time Out
 
-“A masterpiece of timing and improvisation… certainly one of the highlights of this Fringe” - ★★★★ EdFringe Review
+“Witty, intelligent and pitch-perfect”  
+★★★★ The List
 
-“Hilarious… Comedy doesn’t get much better than this” - ★★★★★ AdelaideNow, Adelaide Fringe
+“A masterpiece of timing and improvisation… certainly one of the highlights of this Fringe”  
+★★★★ EdFringe Review
 
-“Who can resist Marcel Lucont?… Pulling clever punchlines out of every interaction with his audience… Sometimes arrogance is bliss" - ★★★★ The Scotsman, Edinburgh Fringe
+“Hilarious… Comedy doesn’t get much better than this”  
+★★★★★ AdelaideNow, Adelaide Fringe
+
+“Who can resist Marcel Lucont?… Pulling clever punchlines out of every interaction with his audience… Sometimes arrogance is bliss"  
+★★★★ The Scotsman, Edinburgh Fringe
+
 <hr style="width:100%;" />
 Doors : 6pm
 

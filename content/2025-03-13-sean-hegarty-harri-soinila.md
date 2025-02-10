@@ -1,6 +1,7 @@
 ---
 title: 2025-03-13-sean-hegarty-harri-soinila
 event_title: Sean Hegarty & Harri Soinila
+event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/sean2025
 fb_url: https://www.facebook.com/events/605636575777115/
