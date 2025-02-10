@@ -1,6 +1,7 @@
 ---
 title: 2025-03-25-andy-huggins-ben-van-der-velde
 event_title: Andy Huggins + Ben Van Der Velde
+event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/andy2025
 fb_url: https://www.facebook.com/events/608323361605262/

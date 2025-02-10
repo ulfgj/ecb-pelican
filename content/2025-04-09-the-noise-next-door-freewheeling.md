@@ -1,6 +1,7 @@
 ---
 title: 2025-04-09-the-noise-next-door-freewheeling
 event_title: The Noise Next Door - Freewheeling
+event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/noise2025
 fb_url: https://www.facebook.com/events/556424710653845/
