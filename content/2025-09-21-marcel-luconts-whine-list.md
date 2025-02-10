@@ -39,6 +39,5 @@ Time Out
 ★★★★ The Scotsman, Edinburgh Fringe
 
 <hr style="width:100%;" />
-Doors : 6pm
-
+Doors : 6pm  
 Show : 7pm

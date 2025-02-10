@@ -15,15 +15,13 @@ Most of America knows 72-year old Andy Huggins from his standout appearance o
 
 Andy Huggins is a 45-year veteran of stand-up comedy. He was, along with Bill Hicks, Ron Shock and others, one of the original Texas Outlaw Comics, a group of Houston-based comedians who famously convened at Houston’s Comedy Workshop in the 1980s. Along with Huggins, the cadre included names like Ron Shock, Jimmy Pineapple, Sam Kinison and Bill Hicks. They set their own, individual legacies but as a group they helped put Houston on the comedy map.
 
-<hr />
+<hr style="width:100%;" />
 
 Special guests : Ben Van Der Velde
 
 "The perfect comedy club host - he is a master of audience interaction. The audience weren't just warmed up, but pretty histerical even before the first act of the night hit the stage." Huffington Post
 
 <hr style="width:100%;" />
-
-NB : the venue has a CASH ONLY policy
-
+NB : the venue has a CASH ONLY policy  
 Doors open at 7 pm  
 Show starts at 8 pm

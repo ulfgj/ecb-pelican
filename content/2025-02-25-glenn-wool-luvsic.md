@@ -18,8 +18,6 @@ An hour with Wool is worth about ten hours with many other comics. Why aren't yo
 Special guests : Ric Diez
 
 <hr style="width:100%;" />
-
-NB : the venue has a CASH ONLY policy
-
+NB : the venue has a CASH ONLY policy  
 Doors open at 7 pm  
 Show starts at 8 pm

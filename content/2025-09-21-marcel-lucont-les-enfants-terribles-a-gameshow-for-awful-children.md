@@ -39,7 +39,5 @@ As seen on Comedy Central At The Comedy Store, Set List (Sky Atlantic), The John
 “An unforgettable experience… interactive and uproarious... appeals to both young and old… A must-see” - Edinburgh With Kids
 
 <hr style="width:100%;" />
-
-Doors : 3pm
-
+Doors : 3pm  
 Show : 4pm

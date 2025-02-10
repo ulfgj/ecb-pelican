@@ -24,8 +24,7 @@ His observational one-liners have been described as dark humor with a golden hea
 "You deserved ten points." - Michael Addis, Comedy Central
 
 "I'm Batman." – Batman
+
 <hr style="width:100%;" />
-
-Doors open at 7 pm
-
+Doors open at 7 pm  
 Show starts at 8 pm 

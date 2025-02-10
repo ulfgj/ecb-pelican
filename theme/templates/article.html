@@ -31,7 +31,7 @@
             <iframe width="560" height="315" src="{{ article.youtube_video }}" frameborder="0" allowfullscreen> </iframe>
             {% endif %}
         <hr style="width:100%;">
-        <h4 style="color: #888;font-size:85%;text-align:right;">{{ article.date | strftime("%-d %B %Y") }} {{article.event_time}} - {{ article.event_title }}<br />{{ article.location }}</h4>
+        <h4 style="color: #888;font-size:85%;text-align:right;">{{ article.event_title }}<br />{{ article.date | strftime("%-d %B %Y") }} {{article.event_time}}<br />{{ article.location }}</h4>
         </div>
         <div class="btn-buy-ticket"><a href="{{ article.ticket_url }}" target="_blank">Order tickets here!</a></div>
     </div><!-- .quotebox END -->
