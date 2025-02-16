@@ -5,7 +5,7 @@ event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/sean2025
 fb_url: https://www.facebook.com/events/605636575777115/
-image_url: https://gallery.weezevent.com/53913/sites/newFile.png
+image_url: theme/images/2025-03-13-michael-legge-harri-soinila.jpg
 location: Celtica, Rue du Marché aux poulets 55, 1000, Brussels Belgium
 ---
 
