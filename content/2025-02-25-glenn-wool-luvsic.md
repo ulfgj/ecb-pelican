@@ -13,7 +13,7 @@ Glenn Wool is back in Brussels with his new show Luv(Sic)
 
 Almost 50, almost single, almost happy. It's not a "how to" but a "how I" got over my divorce in a year. A show for anyone who is going through, gone through or planning a divorce. As seen on 8 Out of 10 Cats, The John Bishop Show, Never Mind the Buzzcocks & Russell Howards Good News. Podcast guest on: WTF? With Marc Maron, The Doug Stanhope Podcast, Sloss and Humphries on the Road, Dead Men Talking, Have a Word, Some Laugh & Mild High Club. His own podcasts: Freestyle (with Frankie Boyle) & Eejits of the World (with Andrew Maxwell) 
 
-An hour with Wool is worth about ten hours with many other comics. Why aren't you in a queue somewhere buying a ticket? ***** The Scotsman 
+An hour with Wool is worth about ten hours with many other comics. Why aren't you in a queue somewhere buying a ticket? ★★★★★ The Scotsman 
 
 Special guests : Ric Diez
 

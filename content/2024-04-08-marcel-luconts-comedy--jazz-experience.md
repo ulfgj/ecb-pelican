@@ -18,7 +18,7 @@ The Fringe's favourite Frenchman comes back to Brussels with an exquisite new sh
 
 'Excellently dry' (Times).
 
-'Comedy at its best' ***** (FringeReview.co.uk).
+'Comedy at its best' ★★★★★ (FringeReview.co.uk).
 
 As seen on BBC1's <em>The John Bishop Show</em>, Sky Atlantic's <em>Set List</em> and <em>Comedy Central at the Comedy Store</em>.
 

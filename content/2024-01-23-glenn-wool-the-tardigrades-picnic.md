@@ -15,11 +15,11 @@ This is Glenn's 25th solo show. He's played every comedy festival, been on every
 
 <strong>“Effortlessly funny with an affability that other comics can only dream of – You have to go and see Glenn Wool. ” </strong><em>The Guardian</em></p>
 
-<strong>"Edgy, imaginative, funny and original” ***** </strong><em>Daily Telegraph</em>
+<strong>"Edgy, imaginative, funny and original” ★★★★★ </strong><em>Daily Telegraph</em>
 
-<strong>“Why aren't you in a queue somewhere buying a ticket?” ***** </strong><em>The Scotsman</em>
+<strong>“Why aren't you in a queue somewhere buying a ticket?” ★★★★★ </strong><em>The Scotsman</em>
 	 
-<strong>“Seeing Glenn Wool perform should be made compulsory for the melancholy. There’s no way you won’t feel a bit better about the world afterwards. Lethally funny” </strong><em>****Metro</em>
+<strong>“Seeing Glenn Wool perform should be made compulsory for the melancholy. There’s no way you won’t feel a bit better about the world afterwards. Lethally funny” </strong><em>★★★★ Metro</em>
 	 
 <strong>“Absolutely hilarious” </strong><em>Independent</em></p>
 ___
