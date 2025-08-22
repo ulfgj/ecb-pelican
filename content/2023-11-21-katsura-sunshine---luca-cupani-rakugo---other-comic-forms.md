@@ -37,17 +37,17 @@ image_url: https://gallery.weezevent.com/46094/sites/newFile_Dkz4Rfy.png
 <p>
     "Completely endearing!"</p>
 <p>
-    ~Chortle ****</p>
+    ~Chortle ★★★★</p>
 
 <p>
     "Tremendously funny!"</p>
 <p>
-    ~Beyond the Joke ****</p>
+    ~Beyond the Joke ★★★★</p>
 
 <p>
     "Simply hysterical!"</p>
 <p>
-    ~Entertainment Now ****</p>
+    ~Entertainment Now ★★★★</p>
 
 <p>
     Luca has performed in Dubai and across Europe, particularly in his native Italy, where he has been featured on Zelig, presently the most most successful Italian TV comedy show (recorded live in front of an audience of 2300 people). </p>

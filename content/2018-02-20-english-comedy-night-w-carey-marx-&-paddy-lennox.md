@@ -18,13 +18,13 @@ Carey Marx has been a circuit favourite for years, mixing his own blend of dark 
 
 Carey has taken shows to numerous Edinburgh Festival Fringes. His most successful festival being 2013, in which he took his new show 'Intensive Carey'. Carey received an incredible eight 4 and 5 star reviews for his show concerning his ill health over the last year.
 
-“The blackly comic, deeply personal story about his brush with mortality had provided Marx with material which perfectly suits his line in smart, shocking humour.” The List ****
+“The blackly comic, deeply personal story about his brush with mortality had provided Marx with material which perfectly suits his line in smart, shocking humour.” The List ★★★★
 
-“…Sharp, sweet, cheeky, cynical, romantic and rude as he ever was. Rarely is cardiac failure this funny.” Chortle ****
+“…Sharp, sweet, cheeky, cynical, romantic and rude as he ever was. Rarely is cardiac failure this funny.” Chortle ★★★★
 
-“Comedy at its best.” Fest ****
+“Comedy at its best.” Fest ★★★★
 
-“This is a brilliant, deeply personal performance… A brush with death really shouldn’t be this funny.” The Scotsman ****
+“This is a brilliant, deeply personal performance… A brush with death really shouldn’t be this funny.” The Scotsman ★★★★
 
 ## Paddy Lennox (NI)
 

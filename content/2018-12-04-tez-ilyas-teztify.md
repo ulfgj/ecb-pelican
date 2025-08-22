@@ -11,7 +11,7 @@ For the first time in Brussels, new comedy sensation Tez Ilyas!
 ## Tez Ilyas
 Tez Ilyas feels like he's constantly on trial. It's time to teztify against all the assumptions the world has of him. Armed with his trademark cheek and uncompromising approach, don't miss this slick, smart and typically subversive show. Star of BBC Radio 4's TEZ Talks, BBC Two's Live from the BBC and BBC Three's Man Like Mobeen.
 
-‘Ilyas has a slickness more reminiscent of US comics, and the gags to back it up’ (Guardian). ‘Radiantly entertaining’ **** (Times). ‘A vital discussion of some of the most difficult issues facing this country’ **** (Telegraph).
+‘Ilyas has a slickness more reminiscent of US comics, and the gags to back it up’ (Guardian). ‘Radiantly entertaining’ ★★★★ (Times). ‘A vital discussion of some of the most difficult issues facing this country’ ★★★★ (Telegraph).
 
 BBC NEW TALENT HOT LIST 2017
 
@@ -31,6 +31,5 @@ Tez has appeared on The Last Leg (C4), Mock the Week (BBC Two), Live From the BB
 
 Doors open at 6:30 pm, come early and enjoy some great food and spectacular Gin & Tonics!
 
-Online tickets : 17€
-
+Online tickets : 17€  
 On the door : 20€

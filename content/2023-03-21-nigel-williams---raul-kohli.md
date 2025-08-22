@@ -22,7 +22,7 @@ image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/af
 <p>
 		Nigel’s comedy is social commentary with a ‘funny sauce’, ‘rough and ready’ and not always for the faint hearted. For the last few years Nigel has toured all over Europe doing comedy in his mother tongue and founded (the now legendary) ‘Stand-Up Antwerp’ comedy club, bringing in top English language comedians from all over the world.</p>
 <p>
-		Nigel’s act is sometimes political, sometimes observational but always engaged, furious, and most of all f***-ing funny.</p>
+		Nigel’s act is sometimes political, sometimes observational but always engaged, furious, and most of all f\*\*\*-ing funny.</p>
 <p>
 		In 2022 Nigel appeared on the Comedy Stage of the amazing Sziget festival in Budapest.</p>
 <p>

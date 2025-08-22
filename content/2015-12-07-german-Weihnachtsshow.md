@@ -7,7 +7,7 @@ fb_url: https://www.facebook.com/events/1678108569087805
 image_url: https://www.weezevent.com/cache/images/affiche_131020.thumb53700.1441986576.jpg
 ---
 
-**Otto Kuhne & Christian Schulte-Loh in:**
+_Otto Kuhne & Christian Schulte-Loh in:_
 
 ### DIE GROSSE, LUSTIGE, DEUTSCHE WEIHNACHTSSHOW
 

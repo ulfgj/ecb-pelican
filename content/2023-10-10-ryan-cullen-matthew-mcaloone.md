@@ -15,7 +15,7 @@ location: Aloft hotel, Pl Jean Rey, 1040, Bruxelles Belgique
 <p align="center">
 		"<em>Ryan Cullen is one of my favourite comedians. Hilarious and so dark you think</em></p>
 <p align="center">
-<em>'How the f**k did he end up like this?</em>"<br>
+<em>'How the f\*\*k did he end up like this?</em>"<br>
 		- Daniel Sloss (Netflix)</p>
 <p>
 		Hailing from the Donegal in Ireland this rapid fire, dark one-liner comedian could give Frankie Boyle and Jimmy Carr a run for their money. If Milton Jones is the Obi wan Kenobi of one-liners then Ryan Cullen is Darth Vader. Not many comedians can write a gag that elicits a gasp, laughter, then cheers followed by applause from an audience. It’s all about delivery and Ryan delivers with an economy of words, an unapologetic style and surgical precision. He takes you to places so dark you may need to bring a torch but don’t worry there’s plenty of light in amongst the shade too. It’s a balance that delights audiences. Dark, twisted brilliance and one act you’ll be talking about long after seeing him.</p>
