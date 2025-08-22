@@ -14,15 +14,14 @@ Don’t miss your chance to catch these two headliners for an energetic night of
 
 World record at the Edinburgh Fringe (230 gigs in 24 days!)
 
-***** - The Guardian
-***** - The Wee Review
-****1/2 Distractify
-Best Show Nominee - Edinburgh Fringe ISH 2024
-Best Reviewed Show - Edinburgh Fringe 2025
+***** - The Guardian  
+***** - The Wee Review  
+****1/2 Distractify  
+Best Show Nominee - Edinburgh Fringe ISH 2024  
+Best Reviewed Show - Edinburgh Fringe 2025  
 Best International Debut Nominee - New Zealand International Comedy Festival 2025
 
 <hr style="width:100%;" />
 
-Doors open at 7 pm
-
+Doors open at 7 pm  
 Show starts at 8 pm 
