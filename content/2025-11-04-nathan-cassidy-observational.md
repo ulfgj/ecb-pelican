@@ -6,7 +6,7 @@ layout: post
 ticket_url: https://my.weezevent.com/cassidy2025
 fb_url: https://www.facebook.com/events/748958871226830/
 image_url: https://gallery.weezevent.com/53913/sites/newFile_vlkGmLT.png
-location: The Black Sheep, Chaussée de Boondael 8, 1050, Brussels Belgium
+location: Celtica, Rue marché aux Poulets 55, 1000 Brussels, Belgium
 ---
 
 In Observational, Nathan joins a gym and a big, strong man changes his life forever.  A truly uplifting and magical show.  
