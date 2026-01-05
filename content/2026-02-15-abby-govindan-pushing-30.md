@@ -21,7 +21,7 @@ As seen on Funny or Die, NBC News, Fox News, Vogue India and LA Times
 
 <hr style="width:100%;" />
 
-+ guest TBA
+\+ guest TBA
 
 <hr style="width:100%;" />
 

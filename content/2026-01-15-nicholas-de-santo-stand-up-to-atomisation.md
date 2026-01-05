@@ -21,9 +21,9 @@ Nicholas De Santo has over 100K subscribers on YouTube and his routines have bee
 
 <hr style="width:100%;" />  
 
-+ guest TBA
+\+ guest TBA
 
 <hr style="width:100%;" />
 
-Doors open at 6 pm
+Doors open at 6 pm  
 Show starts at 7 pm

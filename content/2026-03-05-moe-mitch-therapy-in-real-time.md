@@ -21,5 +21,6 @@ Philip says the things we are all thinking safely in our minds out loud and the 
 
 <hr style="width:100%;" />
 
-Doors open at 7 pm  
+Doors open at 7 pm
+
 Show starts at 8 pm 
