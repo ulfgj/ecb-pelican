@@ -5,7 +5,7 @@ event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/moe2026
 fb_url: https://www.facebook.com/events/1534573704476246/
-image_url: https://gallery.weezevent.com/53913/sites/newFile_kXaW5io.jpeg
+image_url: https://gallery.weezevent.com/53913/sites/newFile_rfbCpJy.jpeg
 location: Celtica, Rue du Marché aux poulets 55, 1000, Brussels Belgium
 ---
 
@@ -21,6 +21,5 @@ Philip says the things we are all thinking safely in our minds out loud and the 
 
 <hr style="width:100%;" />
 
-Doors open at 7 pm
-
+Doors open at 7 pm  
 Show starts at 8 pm 
