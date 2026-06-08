@@ -5,7 +5,7 @@ event_time: from 7 p.m. to 8:30 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/sonubishow2
 fb_url: https://www.facebook.com/events/1603981277483936/
-image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1787319.jpg
+image_url: https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1925677.png
 location: Celtica, Rue du Marché aux poulets 55, 1000, Brussels Belgium
 ---
 
