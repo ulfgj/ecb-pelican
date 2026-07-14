@@ -1,2 +1,2 @@
 # ecb-pelican
-migrated ecb from jekyll to pelican with new hosting.
+migrated ecb from jekyll/ruby to pelican/python with new hosting.
