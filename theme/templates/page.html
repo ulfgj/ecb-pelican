@@ -1,7 +1,14 @@
 {% extends "base.html" %}
 {% block html_lang %}{{ page.lang }}{% endblock %}
 
-{% block title %}{{ SITENAME|striptags }} - {{ page.title|striptags }}{%endblock%}
+{% block title %}{{ page.title|striptags }} | {{ SITENAME }}{% endblock %}
+{% block description %}{{ page.title|striptags }} - English Comedy Brussels{% endblock %}
+
+{% block og_title %}{{ page.title|striptags }} | {{ SITENAME }}{% endblock %}
+{% block og_description %}{{ page.title|striptags }} - English Comedy Brussels{% endblock %}
+
+{% block twitter_title %}{{ page.title|striptags }} | {{ SITENAME }}{% endblock %}
+{% block twitter_description %}{{ page.title|striptags }} - English Comedy Brussels{% endblock %}
 
 {% block head %}
   {{ super() }}

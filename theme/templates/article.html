@@ -1,5 +1,18 @@
 {% extends "base.html" %}
 
+{% block title %}{{ article.event_title }} | {{ SITENAME }}{% endblock %}
+{% block description %}{{ article.event_title }} - {{ article.date | strftime('%d %B %Y') }} at English Comedy Brussels.{% endblock %}
+
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ article.event_title }} | {{ SITENAME }}{% endblock %}
+{% block og_description %}{{ article.event_title }} - {{ article.date | strftime('%d %B %Y') }} at English Comedy Brussels.{% endblock %}
+{% block og_image %}{% if article.image_url %}<meta property="og:image" content="{{ article.image_url }}" />{% else %}<meta property="og:image" content="{{ SITEURL }}/theme/images/logo.png" />{% endif %}{% endblock %}
+{% block og_url %}<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />{% endblock %}
+
+{% block twitter_title %}{{ article.event_title }} | {{ SITENAME }}{% endblock %}
+{% block twitter_description %}{{ article.event_title }} - {{ article.date | strftime('%d %B %Y') }} at English Comedy Brussels.{% endblock %}
+{% block twitter_image %}{% if article.image_url %}<meta name="twitter:image" content="{{ article.image_url }}" />{% else %}<meta name="twitter:image" content="{{ SITEURL }}/theme/images/logo.png" />{% endif %}{% endblock %}
+
 {% block content %}
 
 <section class="post-wrapper">
