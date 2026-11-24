@@ -9,11 +9,16 @@ Static site for English Comedy Brussels, built with Pelican.
    pip install -r requirements.txt
    ```
 
-2. Start the local development server with live auto-reload:
+2. Start the development server with live auto-reload and open it automatically in your browser:
+
+   ```bash
+   (sleep 1 && open http://localhost:8000) & make devserver
+   ```
+
+   **Note:** If you prefer to open [http://localhost:8000](http://localhost:8000) manually, simply run `make devserver`.
    ```bash
    make devserver
    ```
-   Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 3. Other Makefile commands:
    - `make html`: Build the site to `output/`
@@ -22,6 +27,5 @@ Static site for English Comedy Brussels, built with Pelican.
    - `make stop`: Stop running server on port 8000
 
 ## TODO
-- [ ] make past_events_toggler be expanded by default
 - [ ] add facebook link to event in body text. (currently only link to facebook is the image itself.) 
 - [ ] add promo video to front page
