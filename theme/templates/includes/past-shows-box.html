@@ -1,4 +1,5 @@
 {% set years = [0] %}
+{% set current_year = CURRENT_DATE | strftime('%Y') | int %}
 <div class="past-shows-box" style="text-align: left;">
     <h2>Upcoming events:</h2>
     <table>
@@ -16,37 +17,43 @@
         {% endfor %}
     </table>
 
-    <div class="past_events_wrapper">
-        <h2 class="past_events_toggler" style="cursor: pointer;">Past events {{ CURRENT_DATE | strftime('%Y') }}-2013 &#9660;</h2>
+    <div class="past_events_wrapper" style="margin-top: 40px;">
+        <h2>Past events:</h2>
 
-        <table class="past_events">
-            {% for article in articles_page.object_list %}
-                {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
-                {% set event_year = article.date | strftime('%Y') | int %}
-                {% if post_start_date < current_date %}
-                    {% if event_year != years[0] %}
-                        {% set __ = years.pop(0) %}
-                        {% set __ = years.append(event_year) %}
-                        <tr>
-                            <td colspan="3">
-                                <h2>{{ event_year }}</h2>
-                            </td>
-                        </tr>
+        {% for article in articles_page.object_list %}
+            {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
+            {% set event_year = article.date | strftime('%Y') | int %}
+            {% if post_start_date < current_date %}
+                {% if event_year != years[0] %}
+                    {% if years[0] != 0 %}
+                        </table>
+                        </details>
                     {% endif %}
-                    <tr>
-                        {% if article.legacy_event == "True" %}
-                            <td><a href="{{ article.fb_url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
-                            <td>&nbsp;/&nbsp;</td>
-                            <td><a href="{{ article.fb_url }}">{{ article.event_title }}</a></td>
-                        {% else %}
-                            <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
-                            <td>&nbsp;/&nbsp;</td>
-                            <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.event_title }}</a></td>
-                        {% endif %}
-                    </tr>
+                    {% set __ = years.pop(0) %}
+                    {% set __ = years.append(event_year) %}
+                    <details class="past_year_details" {% if event_year >= (current_year - 1) %}open{% endif %} style="margin: 15px 0;">
+                        <summary style="cursor: pointer; font-size: 24px; font-weight: bold; margin: 10px 0; user-select: none;">
+                            {{ event_year }}
+                        </summary>
+                        <table style="margin-left: 15px;">
                 {% endif %}
-            {% endfor %}
-        </table>
+                <tr>
+                    {% if article.legacy_event == "True" %}
+                        <td><a href="{{ article.fb_url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                        <td>&nbsp;/&nbsp;</td>
+                        <td><a href="{{ article.fb_url }}">{{ article.event_title }}</a></td>
+                    {% else %}
+                        <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                        <td>&nbsp;/&nbsp;</td>
+                        <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.event_title }}</a></td>
+                    {% endif %}
+                </tr>
+            {% endif %}
+        {% endfor %}
+        {% if years[0] != 0 %}
+            </table>
+            </details>
+        {% endif %}
     </div>
 
 </div>
