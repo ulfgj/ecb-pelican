@@ -16,7 +16,7 @@ body {
     font-family: 'montserrat', 'Alte Haas Grotesk', helvetica, 'coolvetica', arial, sans-serif;
     font-weight: 700;
     background: url("../images/bg-swirl.png");
-    min-width: 1033px;
+    min-width: 0;
 }
 
 h1 {
@@ -416,4 +416,91 @@ footer .partners img {
 .availability.front-page {
     transform: scale(0.75) rotate(30deg);
     right: -60px;
+}
+
+/* ==========================================================================
+   Responsive / Mobile Styles
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    nav {
+        width: 95%;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+
+    .nav-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #mailing-list {
+        float: none;
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    header .logo {
+        width: 85%;
+    }
+
+    .post-wrapper,
+    .latest {
+        width: 95%;
+    }
+
+    .col-1-2 {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .event-desc {
+        width: 95%;
+        font-size: 18px;
+    }
+
+    .btn-buy-ticket a {
+        width: 80%;
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .past-shows-box {
+        overflow-x: auto;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer .footer-meta {
+        float: none;
+        border-right: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    footer .footer-meta .media__img {
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .availability {
+        font-size: 28px;
+        padding: 10px 30px;
+        right: -40px;
+    }
+
+    .availability.front-page {
+        transform: scale(0.6) rotate(30deg);
+        right: -30px;
+    }
 }
