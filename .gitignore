@@ -163,3 +163,16 @@ cython_debug/
 
 .DS_Store
 output/
+TODO.md
+
+# AI Assistant & Pair-Programming Tooling
+.agents/
+.gemini/
+.claude/
+*.claude
+.cursor/
+.cursorrules
+.copilot/
+.continue/
+*.agent.log
+.agents_cache/
