@@ -9,6 +9,16 @@ DEFAULT_LANG = 'en'
 ARTICLE_URL = '{slug}.html'
 ARTICLE_SAVE_AS = '{slug}.html'
 
+# Disable generation of unused pages
+ARCHIVES_SAVE_AS = ''
+ARTICLE_LANG_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
