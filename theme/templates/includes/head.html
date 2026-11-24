@@ -18,15 +18,19 @@
     <meta name="twitter:description" content="{% block twitter_description %}Since 2012 English Comedy Brussels is the town’s #1 for English speaking stand-up comedy.{% endblock %}" />
     {% block twitter_image %}<meta name="twitter:image" content="{{ SITEURL }}/theme/images/logo.png" />{% endblock %}
 
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
-    <!-- past events accordeon -->
+    <!-- past events accordion -->
     <script>
-    $(document).ready(function() {
-      $('h2.past_events_toggler').click(function() {
-        $('table.past_events').slideToggle("easein");
-      });
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggler = document.querySelector('h2.past_events_toggler');
+      var table = document.querySelector('table.past_events');
+      if (toggler && table) {
+        table.style.display = 'none';
+        toggler.addEventListener('click', function() {
+          table.style.display = (table.style.display === 'none') ? 'table' : 'none';
+        });
+      }
     });
     </script>
     <!-- Facebook Pixel Code -->
