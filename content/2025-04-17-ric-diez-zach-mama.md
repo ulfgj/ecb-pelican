@@ -5,7 +5,7 @@ event_time: from 8 p.m. to 10 p.m.
 layout: post
 ticket_url: https://my.weezevent.com/ric2025
 fb_url: https://www.facebook.com/events/8507852269316182/
-image_url: theme/images/2025-04-17-ric-diez-zach-mama.jpg
+image_url: /theme/images/2025-04-17-ric-diez-zach-mama.jpg
 location: Celtica, Rue du Marché aux poulets 55, 1000, Brussels Belgium
 ---
 

@@ -7,9 +7,9 @@
             {% set post_start_date = article.date | strftime('%Y%m%d') | int %}
             {% if post_start_date >= current_date %}
                 <tr>
-                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                    <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
                     <td>&nbsp;/&nbsp;</td>
-                    <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                    <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.event_title }}</a></td>
                 </tr>
 
             {% endif %}
@@ -38,13 +38,13 @@
                     <tr>
                         <td></td>
                         {% if article.legacy_event == "True" %}
-                            <td><a href="{{ SITEURL }}{{ article.fb_url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                            <td><a href="{{ article.fb_url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
                             <td>&nbsp;/&nbsp;</td>
-                            <td><a href="{{ SITEURL }}{{ article.fb_url }}">{{ article.event_title }}</a></td>
+                            <td><a href="{{ article.fb_url }}">{{ article.event_title }}</a></td>
                         {% else %}
-                            <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
+                            <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.date | strftime("%Y-%m-%d") }}</a></td>
                             <td>&nbsp;/&nbsp;</td>
-                            <td><a href="{{ SITEURL }}{{ article.url }}">{{ article.event_title }}</a></td>
+                            <td><a href="{{ SITEURL }}/{{ article.url }}">{{ article.event_title }}</a></td>
                         {% endif %}
                      </tr>
                     {% endif %}

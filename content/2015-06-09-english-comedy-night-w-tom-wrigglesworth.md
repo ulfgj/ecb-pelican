@@ -4,7 +4,7 @@ event_title: English Comedy Night w/ Tom Wrigglesworth
 layout: post
 ticket_url: http://ticketlib.com/june2015
 fb_url: https://www.facebook.com/events/1447546758876117/
-image_url: /images/2015-06-09-web.jpg
+image_url: /theme/images/2015-06-09-web.jpg
 facebook-image-url:
 ---
 
